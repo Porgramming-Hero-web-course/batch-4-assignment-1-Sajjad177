@@ -7,5 +7,3 @@ interface Profile {
 function updateProfile(obj: Profile, updates: Partial<Profile>) {
   return { ...obj, ...updates };
 }
-
-const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
