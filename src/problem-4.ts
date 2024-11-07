@@ -21,6 +21,7 @@ function calculateShapeArea(shape: Shape) {
 
 const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
 
+
 const rectangleArea = calculateShapeArea({
   shape: "rectangle",
   width: 4,

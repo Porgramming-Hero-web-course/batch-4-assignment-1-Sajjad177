@@ -9,11 +9,10 @@ class Car {
     this.year = year;
   }
 
-  getCarAge(){
-    const currentYear = new Date().getFullYear()
-    return currentYear - this.year
+  getCarAge() {
+    const currentYear = new Date().getFullYear();
+    return currentYear - this.year;
   }
 }
-
 
 const car = new Car("Honda", "Civic", 2018);
