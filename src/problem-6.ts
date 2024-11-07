@@ -9,5 +9,3 @@ function updateProfile(obj: Profile, updates: Partial<Profile>) {
 }
 
 const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
-
-console.log(myProfile.name)
